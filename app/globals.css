@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; --font-sans: Inter, Pretendard, sans-serif; --font-serif: Georgia, 'Times New Roman', serif; }
+.dark { color-scheme: dark; }
+html { scroll-behavior: smooth; }
+body { @apply bg-paper text-ink antialiased dark:bg-zinc-950 dark:text-zinc-100; }
+::selection { @apply bg-accent/20; }
+.prose-custom { @apply max-w-none text-[1.03rem] leading-8 text-zinc-700 dark:text-zinc-300; }
+.prose-custom h2 { @apply mt-12 text-2xl font-semibold tracking-tight text-zinc-900 dark:text-white; }
+.prose-custom h3 { @apply mt-8 text-xl font-semibold text-zinc-900 dark:text-white; }
+.prose-custom p { @apply my-5; }
+.prose-custom ul { @apply my-5 list-disc space-y-2 pl-6; }
+.prose-custom a { @apply text-accent underline underline-offset-4 dark:text-amber-300; }

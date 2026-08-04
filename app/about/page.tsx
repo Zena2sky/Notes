@@ -1,0 +1,3 @@
+import { Section } from '@/components/layout';
+export const metadata = { title: '소개' };
+export default function AboutPage(){return <Section eyebrow="About" title="언어를 이해하는 일에서 AI를 설명하는 일로"><div className="prose-custom max-w-3xl"><p>언어는 사람이 생각을 정리하고 다른 사람과 세계를 나누는 도구입니다. 언어에 대한 관심은 자연스럽게 기계가 언어를 다루는 방식, 특히 대규모 언어모델이 문장을 계산 가능한 형태로 바꾸는 방식에 대한 질문으로 이어졌습니다.</p><p>AI를 공부하면서 가장 중요하게 붙잡고 싶은 태도는 속도보다 이해입니다. 모델 이름을 많이 아는 것보다 토큰화, 임베딩, Attention, 학습과 평가의 관계를 차분히 설명할 수 있는 사람이 되고 싶습니다.</p><p>특히 어린이와 청소년에게 AI는 낯설지만 이미 가까운 도구입니다. 저는 AI를 신비롭거나 두려운 대상으로만 소개하지 않고, 원리와 한계, 안전한 활용 습관을 함께 배울 수 있는 교육을 만들고자 합니다.</p></div></Section>}

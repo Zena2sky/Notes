@@ -22,9 +22,9 @@ export const navItems = [
 ];
 
 export const home = {
-  eyebrow: 'Learning LLMs · Explaining AI · Teaching for Children',
-  title: '복잡한 AI 개념을 깊이 이해하고, 어린이와 청소년에게 쉽게 설명하는 교육자를 향해 갑니다.',
-  intro: '이곳은 완성된 전문가의 전시장이 아니라, 언어와 AI를 꾸준히 공부하며 그 이해를 교육 가능한 형태로 정리해 가는 개인 홈페이지입니다.',
+  eyebrow: 'Exploring LLMs. Building AI education for the next generation.',
+  title: 'Understanding AI deeply.\nTeaching AI clearly.',
+  intro: 'LLM을 깊이 이해하고,\n그 이해를 어린이와 청소년도 쉽게 배울 수 있도록\n교육 콘텐츠를 만들고 있습니다.',
   focus: [
     'Transformer와 LLM의 작동 원리를 기초부터 이해하기',
     'Tokenizer, Embedding, Attention을 쉬운 비유와 예시로 설명하기',

@@ -1,19 +1,61 @@
 # AI Education Portfolio
 
-Next.js App Router 기반의 정적 개인 홈페이지입니다. 기본 언어는 한국어이며, 향후 영어 페이지와 MDX 콘텐츠 확장을 고려해 `data`, `lib`, `content` 폴더를 분리했습니다.
+> Understanding AI deeply. Teaching AI clearly.
 
-## 실행
+## 소개
 
-```bash
-npm install
-npm run dev
-npm run build
-```
+이 프로젝트는 E개인 홈페이지이자 디지털 명함, 그리고 장기적인 학습 기록 공간입니다.
 
-## 구조
+LLM을 깊이 이해하고 그 지식을 교육으로 연결해 가는 과정을 기록하는 것을 목표로 합니다.
 
-- `app/`: URL 라우트와 페이지
-- `components/`: 재사용 레이아웃 컴포넌트
-- `data/`: 사이트 문구, 내비게이션, 프로젝트, CV 데이터
-- `lib/`: 학습 노트와 수강 데이터 모델
-- `content/`: 향후 MDX 원문 저장 위치
+---
+
+## 프로젝트 목표
+
+이 홈페이지는 다음 목적을 위해 운영됩니다.
+
+- 개인 포트폴리오
+- AI 교육 활동 소개
+- LLM 학습 노트 아카이브
+- 연구 및 프로젝트 기록
+- 강의 및 교육 콘텐츠 소개
+
+---
+
+## 핵심 철학
+
+AI를 단순히 사용하는 사람이 아니라,
+
+AI가 어떻게 동작하는지 이해하고,
+
+그 이해를 누구나 쉽게 배울 수 있도록 전달하는 사람이 되는 것을 목표로 합니다.
+
+특히 어린이와 청소년이 AI를 올바르게 이해하고 활용할 수 있는 교육 콘텐츠를 만드는 데 관심이 있습니다.
+
+---
+
+## 주요 메뉴
+
+- Home
+- About
+- Learning Notes
+- Research
+- AI Education
+- Projects
+- CV
+- Contact
+
+---
+
+## Learning Notes
+
+이 사이트의 가장 중요한 콘텐츠입니다.
+
+다음을 꾸준히 기록합니다.
+
+- LLM 원리 학습
+- AI 교육 아이디어
+
+완벽한 글보다 꾸준한 기록을 지향합니다.
+
+© Zena Koo
